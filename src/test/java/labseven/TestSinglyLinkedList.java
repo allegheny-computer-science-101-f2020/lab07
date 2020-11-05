@@ -11,6 +11,7 @@ import org.junit.Test;
  * A JUnit test suite for the SinglyLinkedList.
  *
  * @author Janyl Jumadinova
+ * @author Add Your Name Here
  */
 
 public class TestSinglyLinkedList {
@@ -167,12 +168,10 @@ public class TestSinglyLinkedList {
 
   @Test
   public void testAddManyStringsToLinkedListWithAddLast() {
-    SinglyLinkedList<String> list = new SinglyLinkedList<String>();
-    for (int i = 0; i < SIZE; i++) {
-      list.addFirst(Integer.toString(i));
-    }
-    assertTrue(!list.isEmpty());
-    assertEquals(list.getSize(), SIZE);
+    // TODO: create a SinglyLinkedList
+    // TODO: populate list using addLast method
+    // TODO: test that SinglyLinkedList is not empty
+    // TODO: test that SinglyLinkedList size is correct
   }
 
   @Test
@@ -206,17 +205,13 @@ public class TestSinglyLinkedList {
 
   @Test
   public void testAddManyStringsToLinkedListWithAddFirstAndThenRemove() {
-    SinglyLinkedList<String> list = new SinglyLinkedList<String>();
-    for (int i = 0; i < SIZE; i++) {
-      list.addLast(Integer.toString(i));
-    }
-    assertTrue(!list.isEmpty());
-    assertEquals(list.getSize(), SIZE);
-    for (int i = 0; i < SIZE; i++) {
-      list.removeFirst();
-    }
-    assertTrue(list.isEmpty());
-    assertEquals(list.getSize(), 0);
+    // TODO: create a SinglyLinkedList
+    // TODO: populate list using addLast method
+    // TODO: test that SinglyLinkedList is not empty
+    // TODO: test that SinglyLinkedList size is correct
+    // TODO: remove all elements using removeFirst method
+    // TODO: test that SinglyLinkedList is empty
+    // TODO: test that SinglyLinkedList size is 0
   }
 
   /* @Test
