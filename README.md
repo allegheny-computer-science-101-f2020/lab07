@@ -24,7 +24,7 @@
 
 - [Receiving Assistance](#receiving-assistance)
 
-- [Lab Assessment](#project-assessment)
+- [Lab Assessment](#lab-assessment)
 
 ## Objectives
 
